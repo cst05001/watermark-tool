@@ -26,7 +26,7 @@ FORMS += \
     mainwindow.ui
 
 TRANSLATIONS += \
-    watermark_tool_zh_CN.ts
+    watermark-tool_zh_CN.ts
 CONFIG += lrelease
 CONFIG += embed_translations
 
