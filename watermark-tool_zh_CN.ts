@@ -25,8 +25,9 @@
     </message>
     <message>
         <location filename="about.ui" line="64"/>
-        <source>Yunlin Fang&lt;cst05001@hotmail.com&gt;</source>
-        <translation></translation>
+        <source>Yunlin Fang&lt;cst05001@gmail.com&gt;</source>
+        <oldsource>Yunlin Fang&lt;cst05001@hotmail.com&gt;</oldsource>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="about.ui" line="91"/>
@@ -50,8 +51,9 @@
     </message>
     <message>
         <location filename="about.ui" line="142"/>
-        <source>https://github.com/cst05001/watermark_tool</source>
-        <translation></translation>
+        <source>https://github.com/cst05001/watermark-tool</source>
+        <oldsource>https://github.com/cst05001/watermark_tool</oldsource>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Name: Yunlin Fang

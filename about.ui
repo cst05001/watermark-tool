@@ -61,7 +61,7 @@
          <item>
           <widget class="QLabel" name="labelAuthor">
            <property name="text">
-            <string>Yunlin Fang&lt;cst05001@hotmail.com&gt;</string>
+            <string>Yunlin Fang&lt;cst05001@gmail.com&gt;</string>
            </property>
            <property name="textInteractionFlags">
             <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
