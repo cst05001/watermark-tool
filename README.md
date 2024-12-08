@@ -25,6 +25,10 @@ make
 sudo make install
 ```
 
+### 二进制包安装
+
+下载地址：可以直接到这个项目的 [Release](https://github.com/cst05001/watermark-tool/releases) 进行下载。目前提供了 deb 包安装格式，在 Debian 12 上测试通过。
+
 ## 3. 使用
 
 1. 打开要打水印的图片(支持多选)，或者打开整个图片文件夹。
