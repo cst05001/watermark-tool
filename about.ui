@@ -139,7 +139,7 @@
          <item>
           <widget class="QLabel" name="label_5">
            <property name="text">
-            <string>https://github.com/cst05001/watermark_tool</string>
+            <string>https://github.com/cst05001/watermark-tool</string>
            </property>
            <property name="textInteractionFlags">
             <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
