@@ -34,3 +34,11 @@ CONFIG += embed_translations
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /usr/bin
 !isEmpty(target.path): INSTALLS += target
+
+target_icons.files += $$PWD/icons/*
+target_icons.path=/usr/share/watermark-tool/icons/
+!isEmpty(target_icons.path): INSTALLS += target_icons
+
+target_desktop.files += $$PWD/watermark-tool.desktop
+target_desktop.path=/usr/share/applications/
+!isEmpty(target_desktop.path): INSTALLS += target_desktop

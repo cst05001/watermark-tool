@@ -1,0 +1,6 @@
+watermark-tool (0.1.0) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- Yunlin Fang <cst05001@hotmail.com>  Sun, 08 Dec 2024 12:48:12 +0800
