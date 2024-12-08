@@ -2,7 +2,7 @@
 Name=Watermark Tool
 Comment=Watermark Tool
 Exec=/usr/bin/watermark-tool
-Icon=/usr/share/icons/watermark-tool.png
+Icon=/usr/share/watermark-tool/icons/watermark-tool.png
 Terminal=false
 Type=Application
 Categories=Graphics;Utility;
