@@ -44,7 +44,7 @@ sudo make install
 
 ## 5. 待做事项
 
-- [ ] 1. 打包 DEB 安装包。
+- [x] 1. 打包 DEB 安装包。
 - [ ] 2. 打包 RPM 安装包。
 - [ ] 3. 打包 Windows MSI 安装包。
 - [ ] 4. 优化交互界面。
