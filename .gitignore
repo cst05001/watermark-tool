@@ -1,2 +1,6 @@
 build/
 *.pro.user
+debian/watermark-tool
+debian/debhelper-build-stamp
+debian/files
+watermark-tool.substvars
