@@ -113,7 +113,7 @@ void MainWindow::resizeEvent(QResizeEvent *event)
 
 void MainWindow::onActionOpenFileClicked()
 {
-    QFileDialog dialog = QFileDialog(this);
+    QFileDialog dialog(this);
     dialog.setFileMode(QFileDialog::ExistingFiles);
     dialog.setNameFilter("Images(*.png *.jpg, *.jpeg)");
     dialog.exec();
@@ -152,7 +152,7 @@ void MainWindow::onActionOpenFileClicked()
 
 void MainWindow::onActionOpenDirectoryClicked()
 {
-    QFileDialog dialog = QFileDialog(this);
+    QFileDialog dialog(this);
     dialog.setFileMode(QFileDialog::Directory);
 
     QStringList files;
@@ -191,7 +191,7 @@ void MainWindow::onActionOpenDirectoryClicked()
     }
 
     foreach (FImageFileInfo *fi, imageInfoList) {
-        qDebug() << "fi.getFileInfo().absoluteFilePath():" << fi->getFileInfo().absoluteFilePath() << "\tfi.getOpenDir():" << fi->getOpenDir() << "\tfi.getDestRootPath():" << fi->getDestRootPath() << "\tfi.getDestPath():" << fi->getDestPath() << Qt::endl;
+        qDebug() << "fi.getFileInfo().absoluteFilePath():" << fi->getFileInfo().absoluteFilePath() << "\tfi.getOpenDir():" << fi->getOpenDir() << "\tfi.getDestRootPath():" << fi->getDestRootPath() << "\tfi.getDestPath():" << fi->getDestPath() << "\n";
     }
     ui->lineEditText->setFocus();
 }
@@ -212,7 +212,7 @@ void MainWindow::onButtonSave()
     foreach (FImageFileInfo *fi, imageInfoList) {
         QImage image(fi->getFileInfo().absoluteFilePath());
         generateWatermark(&image);
-        qDebug() << "fi.getFileInfo().absoluteFilePath():" << fi->getFileInfo().absoluteFilePath() << "\tfi.getOpenDir():" << fi->getOpenDir() << "\tfi.getDestRootPath():" << fi->getDestRootPath() << "\tfi.getDestPath():" << fi->getDestPath() << Qt::endl;
+        qDebug() << "fi.getFileInfo().absoluteFilePath():" << fi->getFileInfo().absoluteFilePath() << "\tfi.getOpenDir():" << fi->getOpenDir() << "\tfi.getDestRootPath():" << fi->getDestRootPath() << "\tfi.getDestPath():" << fi->getDestPath() << "\n";
         QDir destDir = QFileInfo(fi->getDestPath()).dir();
         if (!destDir.exists()) {
             destDir.mkpath(".");
