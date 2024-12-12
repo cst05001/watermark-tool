@@ -7,6 +7,7 @@ Build-Depends:
  build-essential,
  qtbase5-dev,
  qt5-qmake,
+ qttools5-dev,
 Standards-Version: 4.5.1
 Homepage: https://github.com/cst05001
 Rules-Requires-Root: no
