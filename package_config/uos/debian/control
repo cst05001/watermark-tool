@@ -6,7 +6,7 @@ Build-Depends: build-essential, debhelper (>=11~), qt5-qmake, qtbase5-dev
 Standards-Version: 4.1.4
 Homepage: https://github.com/cst05001
 
-Package: watermakr-tool
+Package: watermark-tool
 Architecture: amd64
 Multi-Arch: foreign
 Depends: libc6,
